@@ -11,17 +11,19 @@ Once upon a time...
     
     
 ==tree==
-# IMAGE: Tree.png
- +Say hi to mr.tree? ->hitreeroom
+# IMAGE: Images/Tree.JPG
  
 {hitree:
 "Hello."
 }
 
- {hiAmount == 10:
+ {hiAmount == 3:
  I SAID HI
- # IMAGE: darkTree.png
+ # IMAGE: Images/darkTree.PNG
  }
+ 
+  +Say hi to mr.tree? ->hitreeroom
+ 
  ==hitreeroom==
  ~hitree = true
  ~hiAmount += 1
